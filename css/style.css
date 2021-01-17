@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+    height: 100%;
+
+}
+.container{
+   clear: both;
+   position: relative;
+   
+    
+}
+#header{
+    height: 40px;
+    width: auto;
+    text-align: center;
+    
+}
+.container header h1{
+    text-align: center;
+    display: inline;
+    padding: 2px;
+
+
+}
+.container #header img{
+    text-align: center;
+    padding: 2px;
+}
+.banner{
+    text-align: center;
+
+}
+.banner img{
+
+    clear: both;
+}
+.table{
+    background-color: white;
+    width: 843px;
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+   
+    clear: both;
+    
+    
+}
+.table #menu{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+#menu th{
+
+    padding: 10px 15px;
+    background-color: gray;
+    border: 1px solid grey;
+}
+#menu tr,td{
+    border: 1px solid gray;
+    padding: 10px 15px;
+
+
+}
+#menu tr:nth-child(even)
+{
+background-color: gray;
+}
+#menu tr:nth-child(odd):hover{
+    background-color: gray;
+    opacity: 0.5;
+
+}
+.gallery{
+     width: 843px ;
+     height: 310px;
+     display: block;
+     background-color:white;
+     margin: 0 auto;
+     border-bottom: 3px solid gray;
+ }
+ .gallery img{
+     height: 200px;
+     width: 200px;
+     float: left;
+     margin: 10px;
+     margin-left: 25px; 
+     margin-right: 55px;
+     opacity: 0.5px;
+     
+ }
+ .gallery p{
+  margin-left: 100px;
+  margin-right: 80px;
+    display: inline;
+    float: left;
+    font-size: 15px;  
+ }
+ button{
+    text-align: center;
+    margin-left: 370px;
+    padding: 15px 30px;
+    margin-top: 15px;
+    border: 1px solid orangered;
+    background-color: gray;
+ }
+ .aboutus{
+     width: 843px;
+     margin: 0px auto;
+     height: 100px;
+     background-color: white;
+     border-bottom: 3px solid gray;
+
+ }
+ .aboutus h1{
+     text-align: center;
+     padding-top: 10px;
+ }
+ .aboutus p{
+     padding: 10px 20px;
+     text-align: center;
+     
+ }
+ .talk{
+     margin: 0px auto;
+     width: 843px;
+     background-color: ivory;
+    
+ }
+.talk h1,p{
+    text-align: center;
+}
+.talk img{
+    padding: 25px 0;
+    
+    
+}
+ #footer{
+     width: 843px;
+     
+     background-color:gray;
+     text-align: center;
+     margin: 0px auto;
+
+ }
